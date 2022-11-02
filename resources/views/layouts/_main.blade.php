@@ -11,9 +11,12 @@
 
 <body>
 
-    @include('partials.header')
+    @include('partials._header')
 
     @yield('main')
+
+    <br>
+    @include('partials._footer')
 
 </body>
 
