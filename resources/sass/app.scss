@@ -6,9 +6,7 @@
     box-sizing: border-box;
 }
 
-.flex {
-    display: flex;
-}
 
+@import "partials/utilities";
 
-@import "partials/header"
+@import "partials/header";
