@@ -2,9 +2,11 @@
     <div id="header-top-bar">
 
     </div>
-    <ul class="flex container flex-center-y flex-between-x">
-        <img src="{{ asset('images/dc-logo.png') }}" alt="Image">
-        <li>CHARACTERS</li>
-        <li>COMICS</li>
-    </ul>
+    <div class="flex container flex-center-y flex-between-x">
+        <div>
+            <img src="{{ asset('images/dc-logo.png') }}" alt="Image">
+        </div>
+        <div>CHARACTERS</div>
+        <div>COMICS</div>
+    </div>
 </header>
