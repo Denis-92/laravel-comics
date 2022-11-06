@@ -26,6 +26,10 @@ body {
   width: 100%;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .flex-column {
   flex-direction: column;
 }
@@ -40,6 +44,11 @@ body {
 
 .flex-between-x {
   justify-content: space-between;
+}
+
+#card-container > * {
+  width: 16.6666666667%;
+  padding: 1rem;
 }
 
 #header-top-row {

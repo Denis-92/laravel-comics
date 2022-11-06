@@ -10,11 +10,13 @@
             CURRENT SERIES
         </h2>
         <div class="container">
-            @foreach ($comics as $comic)
-                <div>
-                    {{ $comic['title'] }}
-                </div>
-            @endforeach
+            <div class="flex flex-wrap" id="card-container">
+                @foreach ($comics as $comic)
+                    <div>
+                        @include('partials._comic-card')
+                    </div>
+                @endforeach
+            </div>
         </div>
     </div>
 
