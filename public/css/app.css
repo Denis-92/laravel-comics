@@ -69,6 +69,12 @@ body {
   background-color: blue;
 }
 
+#jumbotron {
+  background-image: url("/images/jumbotron.jpg");
+  height: 18rem;
+  background-size: 100%;
+}
+
 #main-top-row {
   height: 1rem;
   width: 100%;
