@@ -34,3 +34,9 @@
   justify-content: space-between;
 }
 
+#header-top-bar {
+  height: 1rem;
+  width: 100%;
+  background-color: blue;
+}
+

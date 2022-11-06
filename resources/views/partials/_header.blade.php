@@ -1,5 +1,8 @@
-<header class="flex">
-    <ul class="flex">
+<header class="flex flex-column">
+    <div id="header-top-bar">
+
+    </div>
+    <ul class="flex container">
         <img src="{{ asset('images/dc-logo.png') }}" alt="Image">
         <li>CHARACTERS</li>
         <li>COMICS</li>
