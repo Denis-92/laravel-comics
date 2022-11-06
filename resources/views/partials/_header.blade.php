@@ -1,5 +1,5 @@
 <header class="flex flex-column">
-    <div id="header-top-bar">
+    <div id="header-top-row">
 
     </div>
     <div class="flex container flex-center-y flex-between-x">

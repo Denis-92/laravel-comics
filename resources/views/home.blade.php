@@ -5,6 +5,13 @@
 @endsection
 
 @section('main')
-    <br>
-    MAIN
+    <div id="main-top-row">
+        <h2>
+            CURRENT SERIES
+        </h2>
+    </div>
+
+    <div id="main-middle-row">
+
+    </div>
 @endsection

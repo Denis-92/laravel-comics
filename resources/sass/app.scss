@@ -10,7 +10,13 @@ img {
     width: 100%;
 }
 
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 
 @import "partials/utilities";
 
 @import "partials/header";
+
+@import "partials/main";

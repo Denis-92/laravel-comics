@@ -8,6 +8,10 @@ img {
   width: 100%;
 }
 
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -38,9 +42,21 @@ img {
   justify-content: space-between;
 }
 
-#header-top-bar {
+#header-top-row {
   height: 1rem;
   width: 100%;
   background-color: blue;
+}
+
+#main-top-row {
+  height: 1rem;
+  width: 100%;
+  background-color: black;
+}
+
+#main-middle-row {
+  height: 1rem;
+  width: 100%;
+  background-color: darkblue;
 }
 
