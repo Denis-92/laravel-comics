@@ -10,7 +10,11 @@
             CURRENT SERIES
         </h2>
         <div class="container">
-
+            @foreach ($comics as $comic)
+                <div>
+                    {{ $comic['title'] }}
+                </div>
+            @endforeach
         </div>
     </div>
 
