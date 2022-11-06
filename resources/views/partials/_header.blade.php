@@ -1,4 +1,4 @@
-<header>
+<header class="flex">
     <ul class="flex">
         <img src="{{ asset('images/dc-logo.png') }}" alt="Image">
         <li>CHARACTERS</li>
