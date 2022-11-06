@@ -9,6 +9,9 @@
         <h2>
             CURRENT SERIES
         </h2>
+        <div class="container">
+
+        </div>
     </div>
 
     <div id="main-middle-row">
