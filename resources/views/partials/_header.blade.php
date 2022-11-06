@@ -1,8 +1,15 @@
 <header class="flex flex-column">
     <div id="header-top-row">
-
+        <div class="container flex flex-end-x content-white">
+            <div>
+                DC POWER VISA
+            </div>
+            <div class="margin-horiz-1">
+                ADDITIONAL DC SITES
+            </div>
+        </div>
     </div>
-    <div class="flex container flex-center-y flex-between-x">
+    <div class="container flex flex-center-y flex-between-x">
         <div>
             <img src="{{ asset('images/dc-logo.png') }}" alt="Image">
         </div>
@@ -20,4 +27,5 @@
         </div>
         <div>Search</div>
     </div>
+    <div id="jumbotron"></div>
 </header>

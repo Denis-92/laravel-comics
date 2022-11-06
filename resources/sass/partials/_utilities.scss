@@ -13,6 +13,10 @@
     margin: 0 1rem;
 }
 
+.content-white {
+    color: white;
+}
+
 // FLEX UTILITIES
 .flex {
     display: flex;
@@ -37,6 +41,10 @@
 
 .flex-between-x {
     justify-content: space-between;
+}
+
+.flex-end-x {
+    justify-content: flex-end;
 }
 
 // END FLEX UTILITIES

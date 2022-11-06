@@ -25,6 +25,10 @@ body {
   margin: 0 1rem;
 }
 
+.content-white {
+  color: white;
+}
+
 .flex {
   display: flex;
   width: 100%;
@@ -48,6 +52,10 @@ body {
 
 .flex-between-x {
   justify-content: space-between;
+}
+
+.flex-end-x {
+  justify-content: flex-end;
 }
 
 #card-container > * {
