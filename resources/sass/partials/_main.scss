@@ -1,11 +1,18 @@
 #main-top-row {
-    height: 1rem;
-    width: 100%;
     background-color: black;
+    color: white;
+    position: relative;
 }
 
 #main-middle-row {
-    height: 1rem;
-    width: 100%;
     background-color: darkblue;
+}
+
+
+#overlay-jumbotron {
+    position: absolute;
+    top: -1rem;
+    left: 2.5rem;
+    background-color: blue;
+    padding: 0.5rem 1.5rem;
 }

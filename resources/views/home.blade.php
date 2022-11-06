@@ -6,10 +6,12 @@
 
 @section('main')
     <div id="main-top-row">
-        <h2>
-            CURRENT SERIES
-        </h2>
-        <div class="container">
+        <div class="container" id="overlay-jumbotron">
+            <h2>
+                CURRENT SERIES
+            </h2>
+        </div>
+        <div class="container padding-top-2">
             <div class="flex flex-wrap" id="card-container">
                 @foreach ($comics as $comic)
                     <div>
